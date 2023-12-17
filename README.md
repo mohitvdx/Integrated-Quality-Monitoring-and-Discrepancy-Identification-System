@@ -12,8 +12,8 @@
 ## Demo
 
 - [Dashboard Page](https://material-kit-react.IQMDIS.io)
-- [Companies Page](https://material-kit-react.IQMDIS.io/companies)
-- [Customers Page](https://material-kit-react.IQMDIS.io/customers)
+- [Results Page](https://material-kit-react.IQMDIS.io/Results)
+- [Results Page](https://material-kit-react.IQMDIS.io/Results)
 - [Account Page](https://material-kit-react.IQMDIS.io/account)
 - [Settings Page](https://material-kit-react.IQMDIS.io/settings)
 - [Login Page](https://material-kit-react.IQMDIS.io/auth/login)
@@ -82,8 +82,8 @@ material-kit-react
 		├── _app.js
 		├── _document.js
 		├── account.js
-		├── companies.js
-		├── customers.js
+		├── Results.js
+		├── dataInput.js
 		├── index.js
 		├── products.js
 		└── settings.js

@@ -34,7 +34,7 @@ export const AccountProfileDetails = () => {
   const [values, setValues] = useState({
     firstName: 'Anika',
     lastName: 'Visser',
-    email: 'demo@IQMDIS.io',
+    email: 'mohitverma@gmail.com',
     phone: '',
     state: 'los-angeles',
     country: 'USA'

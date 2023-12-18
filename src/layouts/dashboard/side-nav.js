@@ -17,11 +17,21 @@ import { Logo } from 'src/components/logo';
 import { Scrollbar } from 'src/components/scrollbar';
 import { items } from './config';
 import { SideNavItem } from './side-nav-item';
+//import icon from '../../public/assets/QMdataIcon.png';
 
 export const SideNav = (props) => {
   const { open, onClose } = props;
   const pathname = usePathname();
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
+
+  // function IconWithName({ name }) {
+  //   return (
+  //     <div>
+  //       <img src={icon} alt="Icon" />
+  //       <span>{name}</span>
+  //     </div>
+  //   );
+  // }
 
   const content = (
     <Scrollbar
@@ -139,8 +149,9 @@ export const SideNav = (props) => {
             color="neutral.100"
             variant="subtitle2"
           >
-            Input QM Data
-          </Typography>
+          {/* <IconWithName name="Input QM Data" /> */}
+          Input QM Data
+            </Typography>
 
           
           <Typography
@@ -210,7 +221,7 @@ export const SideNav = (props) => {
             target="_blank"
             variant="contained"
           >
-            Data source
+            OMMAS
           </Button>
         </Box>
       </Box>

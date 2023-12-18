@@ -17,23 +17,22 @@ import { Logo } from 'src/components/logo';
 import { Scrollbar } from 'src/components/scrollbar';
 import { items } from './config';
 import { SideNavItem } from './side-nav-item';
-//import icon from '../../public/assets/QMdataIcon.png';
+import React, { useState, useEffect } from 'react';
+
+// function MyComponent() {
+//   // Function to refresh the page, placed inside your component
+  const refreshPage = () => {
+    window.location.reload();
+  };
+
 
 export const SideNav = (props) => {
   const { open, onClose } = props;
   const pathname = usePathname();
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
 
-  // function IconWithName({ name }) {
-  //   return (
-  //     <div>
-  //       <img src={icon} alt="Icon" />
-  //       <span>{name}</span>
-  //     </div>
-  //   );
-  // }
-
   const content = (
+    
     <Scrollbar
       sx={{
         height: '100%',
@@ -136,78 +135,141 @@ export const SideNav = (props) => {
                 />
               );
             })}
-          </Stack>
-        </Box>
-        <Divider sx={{ borderColor: 'neutral.700' }} />
-        <Box
-          sx={{
-            px: 2,
-            py: 3
-          }}
-        >
-          <Typography
-            color="neutral.100"
-            variant="subtitle2"
-          >
-          {/* <IconWithName name="Input QM Data" /> */}
-          Input QM Data
-            </Typography>
-
-          
-          <Typography
-            color="neutral.500"
-            variant="body2"
-          >
-             </Typography>
-
+            </Stack>
+          </Box>
+          <Divider sx={{ borderColor: 'neutral.700' }} />
           <Box
             sx={{
+            px: 2,
+            py: 3
+            }}
+          >
+            <Typography
+            color="neutral.100"
+            variant="subtitle2"
+            >
+            {/* <IconWithName name="Input QM Data" /> */}
+            Input QM Data
+            </Typography>
+
+            <Box
+            sx={{
               display: 'flex',
-              mt: 2,
+              mt: 0,
               mx: 'auto',
               width: '160px',
               '& img': {
-                width: '100%'
+              width: '100%'
               }
             }}
-          >
+            >
             {/* <img
               alt=" Smart India Hackathon"
               src="/assets/IQMDIS-kit-pro.png"
             /> */}
-          </Box>
+            </Box>
+                 
+      <div>
+      <Button
+  component="a"
+  fullWidth
+  sx={{
+    mt: 2,
+    backgroundColor: '#6577B3', // Adjust the color to match your theme
+    color: 'white', // Adjust the text color to match your theme
+    textTransform: 'none', // Prevent uppercase transform
+    justifyContent: 'flex-start', // Align text to the left
+    '&:hover': {
+      backgroundColor: 'darkblue' // Darken the button on hover
+    }
+  }}
+  target="_blank"
+  variant="contained"
+>
+  Enter Data Source A
+  <input 
+    type="file" 
+    id="data-source-c" 
+    accept=".csv" 
+    onChange={(e) => handleFileChange(e, 'sourceC')} 
+    style={{ 
+      opacity: 0, // Make the file input invisible
+      position: 'absolute', // Take it out of flow
+      width: '100%', // Expand to cover the button
+      height: '100%' // Expand to cover the button
+    }} 
+  />
+</Button>
 
-        
-      <div>
-        <label htmlFor="data-source-a">Enter Data Source A:</label>
-        <input 
-          type="file" 
-          id="data-source-a" 
-          accept=".csv" 
-          onChange={(e) => handleFileChange(e, 'sourceA')} 
-        />
-      </div>
-       <div>
-        <label htmlFor="data-source-b">Enter Data Source B:</label>
-        <input 
-          type="file" 
-          id="data-source-b" 
-          accept=".csv" 
-          onChange={(e) => handleFileChange(e, 'sourceB')} 
-        />
+
+          <Button
+  component="a"
+  fullWidth
+  sx={{
+    mt: 2,
+    backgroundColor: '#6577B3', // Adjust the color to match your theme
+    color: 'white', // Adjust the text color to match your theme
+    textTransform: 'none', // Prevent uppercase transform
+    justifyContent: 'flex-start', // Align text to the left
+    '&:hover': {
+      backgroundColor: 'darkblue' // Darken the button on hover
+    }
+  }}
+  target="_blank"
+  variant="contained"
+>
+  Enter Data Source B
+  <input 
+    type="file" 
+    id="data-source-c" 
+    accept=".csv" 
+    onChange={(e) => handleFileChange(e, 'sourceC')} 
+    style={{ 
+      opacity: 0, // Make the file input invisible
+      position: 'absolute', // Take it out of flow
+      width: '100%', // Expand to cover the button
+      height: '100%' // Expand to cover the button
+    }} 
+  />
+</Button>
+
+
+<Button
+  component="a"
+  fullWidth
+  sx={{
+    mt: 2,
+    backgroundColor: '#6577B3', // Adjust the color to match your theme
+    color: 'white', // Adjust the text color to match your theme
+    textTransform: 'none', // Prevent uppercase transform
+    justifyContent: 'flex-start', // Align text to the left
+    '&:hover': {
+      backgroundColor: 'darkblue' // Darken the button on hover
+    }
+  }}
+  target="_blank"
+  variant="contained"
+>
+  Enter Data Source C
+  <input 
+    type="file" 
+    id="data-source-c" 
+    accept=".csv" 
+    onChange={(e) => handleFileChange(e, 'sourceC')} 
+    style={{ 
+      opacity: 0, // Make the file input invisible
+      position: 'absolute', // Take it out of flow
+      width: '100%', // Expand to cover the button
+      height: '100%' // Expand to cover the button
+    }} 
+  />
+</Button>
+
       </div>
       
-      <div>
-        <label htmlFor="data-source-c">Enter Data Source C:</label>
-        <input 
-          type="file" 
-          id="data-source-c" 
-          accept=".csv" 
-          onChange={(e) => handleFileChange(e, 'sourceC')} 
-        />
-      </div>
-      
-      <button >Refresh</button>
+      {/* Refresh Button */}
+      <button onClick={refreshPage}>Refresh</button>
+
           <Button
             component="a"
             endIcon={(

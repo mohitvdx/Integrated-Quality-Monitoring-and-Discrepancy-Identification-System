@@ -106,9 +106,14 @@ export const SideNav = (props) => {
               m: 0
             }}
           >
+            
+            
             {items.map((item) => {
               const active = item.path ? (pathname === item.path) : false;
 
+              
+
+              
               return (
                 <SideNavItem
                   active={active}
@@ -134,14 +139,16 @@ export const SideNav = (props) => {
             color="neutral.100"
             variant="subtitle2"
           >
-            QM Data Discrepancy Solution
+            Input QM Data
           </Typography>
+
+          
           <Typography
             color="neutral.500"
             variant="body2"
           >
-             
-          </Typography>
+             </Typography>
+
           <Box
             sx={{
               display: 'flex',
@@ -153,11 +160,43 @@ export const SideNav = (props) => {
               }
             }}
           >
-            <img
+            {/* <img
               alt=" Smart India Hackathon"
               src="/assets/IQMDIS-kit-pro.png"
-            />
+            /> */}
           </Box>
+
+        
+      <div>
+        <label htmlFor="data-source-a">Enter Data Source A:</label>
+        <input 
+          type="file" 
+          id="data-source-a" 
+          accept=".csv" 
+          onChange={(e) => handleFileChange(e, 'sourceA')} 
+        />
+      </div>
+       <div>
+        <label htmlFor="data-source-b">Enter Data Source B:</label>
+        <input 
+          type="file" 
+          id="data-source-b" 
+          accept=".csv" 
+          onChange={(e) => handleFileChange(e, 'sourceB')} 
+        />
+      </div>
+      
+      <div>
+        <label htmlFor="data-source-c">Enter Data Source C:</label>
+        <input 
+          type="file" 
+          id="data-source-c" 
+          accept=".csv" 
+          onChange={(e) => handleFileChange(e, 'sourceC')} 
+        />
+      </div>
+      
+      <button >Refresh</button>
           <Button
             component="a"
             endIcon={(

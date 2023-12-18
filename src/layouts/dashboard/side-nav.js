@@ -186,7 +186,7 @@ export const SideNav = (props) => {
   target="_blank"
   variant="contained"
 >
-  Enter Data Source A
+  E-form Data
   <input 
     type="file" 
     id="data-source-c" 
@@ -218,7 +218,7 @@ export const SideNav = (props) => {
   target="_blank"
   variant="contained"
 >
-  Enter Data Source B
+  National QM Data 
   <input 
     type="file" 
     id="data-source-c" 
@@ -250,7 +250,7 @@ export const SideNav = (props) => {
   target="_blank"
   variant="contained"
 >
-  Enter Data Source C
+  State QM Data
   <input 
     type="file" 
     id="data-source-c" 

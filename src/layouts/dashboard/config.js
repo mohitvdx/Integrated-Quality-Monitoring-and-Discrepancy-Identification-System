@@ -18,15 +18,15 @@ export const items = [
       </SvgIcon>
     )
   },
-  {
-    title: 'dataInput',
-    path: '/dataInput',
-    icon: (
-      <SvgIcon fontSize="small">
-        <UsersIcon />
-      </SvgIcon>
-    )
-  },
+  // {
+  //   title: 'dataInput',
+  //   path: '/dataInput',
+  //   icon: (
+  //     <SvgIcon fontSize="small">
+  //       <UsersIcon />
+  //     </SvgIcon>
+  //   )
+  // },
   {
     title: 'Results',
     path: '/Results',

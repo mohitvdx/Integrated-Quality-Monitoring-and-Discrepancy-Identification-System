@@ -82,12 +82,12 @@ export const SideNav = (props) => {
               >
                 IQMDIS
               </Typography>
-              <Typography
+              {/* <Typography
                 color="neutral.400"
                 variant="body2"
               >
                 Production
-              </Typography>
+              </Typography> */}
             </div>
             <SvgIcon
               fontSize="small"

@@ -1,0 +1,75 @@
+index,DISTRICT_NAME,BLOCK_NAME,SANCTION_YEAR,IMS_PACKAGE_ID,IMS_ROAD_NAME,IMS_PAV_LENGTH,NQM_INSP_COUNT,NQM_GRADE,SQM_INSP_COUNT1,SQM_GRADE,DISCREPANCY,GRADE_DIFFER,INS_DIFFER,DISCREPANCY_LEVEL,DISCREPANCY_S
+7,Varanasi,Arazeeline,2016-2017,UP7066,T04-Akelawan Sarai Mohan Chak Mataldei Adalpura To Gyanpur ,7.0,1,1,8,1,0,0,7,0.0,0.0
+13,Varanasi,Baragaon,2012-2013,UP7044,Baragaon  - Kunwar road,6.0,1,1,7,1,0,0,6,0.0,0.0
+14,Varanasi,Baragaon,2012-2013,UP7057,Lucknow varanasi( NH 56 Km 263 ) - Baragaon ,3.3,1,1,8,1,0,0,7,0.0,0.0
+15,Varanasi,Baragaon,2016-2017,UP7064.,ML13-Kuar To Rampur,5.0,1,1,9,1,0,0,8,0.0,0.0
+16,Varanasi,Baragaon,2020-2021,UP7089,MRL15-Baragaon Anei Road To Kharariya Khas,5.0,1,1,3,1,0,0,2,0.0,0.0
+19,Varanasi,Chiraigaon,2016-2017,UP7064,ML11-Dubakiya To Jairampur,5.25,1,1,8,1,0,0,7,0.0,0.0
+24,Varanasi,Cholapur,2012-2013,UP7045,Varanasi Azamgarh road  - Dharsauna - Garthama,6.575,1,1,6,1,0,0,5,0.0,0.0
+25,Varanasi,Cholapur,2012-2013,UP7048,Varanasi- Azamgarh road  - Mahmoodpur Rampur,5.075,1,1,7,1,0,0,6,0.0,0.0
+28,Varanasi,Cholapur,2016-2017,UP7065,T04-Chhittampur Dharaura Rajwari  Shree Ram Kutee Se Purapur ,7.4,1,1,9,1,0,0,8,0.0,0.0
+31,Varanasi,Cholapur,2020-2021,UP7086,MRL16-Chhitampur Dharauhara Rajwari To Dhurwa Tikuri Road,5.15,1,1,3,1,0,0,2,0.0,0.0
+34,Varanasi,Harahua,2012-2013,UP7055,SH-73 (Km.17) - Tewar Palhi patti road ,6.35,1,1,7,1,0,0,6,0.0,0.0
+38,Varanasi,Harahua,2020-2021,UP7084,MRL03-Bhojubir Sindhora To  Vedi Via Pauri Khurd,5.0,1,1,4,1,0,0,3,0.0,0.0
+39,Varanasi,Harahua,2020-2021,UP7085,T09-Bhojubir Sindhora Bedi To Khanpatti,5.0,1,1,4,1,0,0,3,0.0,0.0
+40,Varanasi,Harahua,2020-2021,UP7088,MRL04-Nh-56(km-266) To Sh-98 Premnagar Via Khanpatti Puarikala,8.0,1,1,5,1,0,0,4,0.0,0.0
+51,Varanasi,Kashividyapith,2016-2017,UP7067,T04-Nh-2 By Pass To Faridpur Kadipur Road,5.2,1,1,10,1,0,0,9,0.0,0.0
+53,Varanasi,Kashividyapith,2016-2017,UP7070,ML08-Lahartara to Akelawa km 4  to Mahmoodpur via Bharathara,6.0,1,1,8,1,0,0,7,0.0,0.0
+57,Varanasi,Pindra,2012-2013,UP7045,Phoolpur- Sindhora to  - Gajokhar  road ,6.5,1,1,6,1,0,0,5,0.0,0.0
+58,Varanasi,Pindra,2012-2013,UP7046,SH- 98 road  - Mangari- Sindhora road,8.0,1,1,7,1,0,0,6,0.0,0.0
+66,Varanasi,Pindra,2020-2021,UP7079,MRL11-NH 56 km 259 to Kaharka  jhanjour,6.5,1,1,5,1,0,0,4,0.0,0.0
+12,Varanasi,Baragaon,2007-2008,UP7035,Remaining part of Newada - Kathiraon,3.6,1,0,1,1,1,1,0,1.0,1.0
+46,Varanasi,Kashividyapith,2007-2008,UP7042,Panchkoshi road Gram sabha Aurhe  - Bachchaw,2.675,1,0,1,1,1,1,0,1.0,1.0
+55,Varanasi,Kashividyapith,2020-2021,UP7083,MRL01-Chhitauni Kot via Narottampur Khurd  to Tarapur Shultankeshwar,8.9,1,0,4,1,1,1,3,1.0,1.0
+70,Varanasi,Sewapuri,2012-2013,UP7043,SH-98 - Shirhira road,2.8,1,0,4,1,1,1,3,1.0,1.0
+29,Varanasi,Cholapur,2016-2017,UP7072,ML03-Katharganj - Niyardih To Chahin Hazepur Road,7.1,1,0,8,1,1,1,7,2.0,1.0
+52,Varanasi,Kashividyapith,2016-2017,UP7069,T03-NH-2 To Delhana Bansepur Paterwa Karsada Road,5.2,1,0,8,1,1,1,7,2.0,1.0
+69,Varanasi,Sewapuri,2012-2013,UP7043,SH-98 - Jogiyapur- Beerapur- Jogapur road ,3.25,1,0,5,1,1,1,4,2.0,1.0
+2,Varanasi,Arazeeline,2007-2008,UP7036,Kallipur- Benipur - Dindaspur road,7.0,1,2,1,1,1,1,0,3.0,1.0
+9,Varanasi,Arazeeline,2020-2021,UP7081,MRL17-RAJATALAB JAKHINI TILANGA TO BIRSINGHPUR MILKIPUR VIA CHAMELA DEVI  ,5.0,1,2,4,1,1,1,3,3.0,1.0
+18,Varanasi,Chiraigaon,2012-2013,UP7047,NH-29 - Gaura,2.95,1,1,4,2,1,1,3,3.0,1.0
+32,Varanasi,Cholapur,2020-2021,UP7087,MRL14-Bela Dharsauna Road To Katharganj Niyardih Road Via Garsara,5.0,1,2,5,1,1,1,4,3.0,1.0
+61,Varanasi,Pindra,2012-2013,UP7052,Pindra-Belwan - Nindanpur,3.0,1,2,7,0,1,2,6,3.0,1.0
+62,Varanasi,Pindra,2012-2013,UP7052,Rameshwar - Badagaon Pancho pandawa-Rasulpur Tikari kala ,4.8,0,3,6,2,0,1,6,3.0,1.0
+63,Varanasi,Pindra,2013-2014,UP7062,MRL21-bhojubir sindhora road to garkhara dasrathpur shahpur mulka,5.0,1,2,6,1,1,1,5,3.0,1.0
+64,Varanasi,Pindra,2016-2017,UP7068,ML04-Nh-56 To Aurawn  ,5.5,1,2,9,1,1,1,8,3.0,1.0
+72,Varanasi,Sewapuri,2020-2021,UP7090,MRL15-karehane tikara to khalispur,5.0,1,2,5,1,1,1,4,3.0,1.0
+0,Varanasi,Arazeeline,2006-2007,UP7031,Rajatalab - Tilanga,14.8,0,3,2,1,0,2,2,0.0,0.0
+1,Varanasi,Arazeeline,2007-2008,UP7036,Korauti- Bhatsar- Dehariya  - Vinayak Panchkoshi road,6.0,0,3,1,1,0,2,1,0.0,0.0
+3,Varanasi,Arazeeline,2007-2008,UP7036,Mahagaon- Chandapur - Jakkhini road,8.825,0,3,1,1,0,2,1,0.0,0.0
+4,Varanasi,Arazeeline,2007-2008,UP7037,Mohansarai - Adalpura  - Dhahapur Shahanshahpur road,4.4,0,3,2,0,0,3,2,0.0,0.0
+5,Varanasi,Arazeeline,2012-2013,UP7059,Akelwa-Saraimohan Chakmataldei Adalpura  - Ganjari Harsos,3.0,0,3,5,1,0,2,5,0.0,0.0
+6,Varanasi,Arazeeline,2012-2013,UP7059,Akelwa-Saraim0han chakmataldei Adalpura - Karsara,3.0,0,3,3,1,0,2,3,0.0,0.0
+8,Varanasi,Arazeeline,2016-2017,UP7069.,ML02-Nh-2 (km-302 To 319) To Asharh-baherwa Road,3.9,0,3,9,1,0,2,9,0.0,0.0
+10,Varanasi,Arazeeline,2021-2022,UP7092,MRL12-NH2 ROOPAPUR GURUDASPUR  TO SHIVRAMPUR,6.95,0,3,3,1,0,2,3,0.0,0.0
+11,Varanasi,Baragaon,2007-2008,UP7035,Remaining part of Anei - Dadupur,4.475,0,3,1,1,0,2,1,0.0,0.0
+17,Varanasi,Chiraigaon,2012-2013,UP7047,Pahariya balua road  - Deenapur Saraimohan,3.525,0,3,3,0,0,3,3,0.0,0.0
+20,Varanasi,Chiraigaon,2018-2019,UP7076,3060-Jhamki Madhai  (nh-29) To Narainpur,7.76,0,3,5,1,0,2,5,0.0,0.0
+21,Varanasi,Chiraigaon,2021-2022,UP7093,"MRL14-NH-29 to Sarnath Munari Via Parbatpur, Bikapur, Khetalpur, Latauni",5.4,0,3,3,1,0,2,3,0.0,0.0
+22,Varanasi,Chiraigaon,2021-2022,UP7094,"MRL13-Umraha  Jalhupur road to Barthra via Narainpur, Saraiya, rampur, ukthi",8.5,0,3,5,1,0,2,5,0.0,0.0
+23,Varanasi,Cholapur,2007-2008,UP7039,Varanasi Azamgarh- Bajrangnagar  - Mangolepur,3.95,0,3,1,1,0,2,1,0.0,0.0
+26,Varanasi,Cholapur,2013-2014,UP7060,T03-Chhitampur km 1 to Rajwari via dharaura road km 10,10.0,0,3,8,0,0,3,8,0.0,0.0
+27,Varanasi,Cholapur,2016-2017,UP7063,ML05-V.a. Road To Roopchandpur,5.0,0,3,10,1,0,2,10,0.0,0.0
+30,Varanasi,Cholapur,2016-2017,UP7073,"T02-Mahada Mangolepur Road To Lalmankot, Singhpur, Deoraia",6.2,0,3,9,1,0,2,9,0.0,0.0
+33,Varanasi,Cholapur,2021-2022,UP7095,MRL19-V A Road To suari jariyari mohanadih road,5.0,0,3,5,1,0,2,5,0.0,0.0
+35,Varanasi,Harahua,2012-2013,UP7055,SH-73 (Km.14) - Ayar,4.0,0,3,6,1,0,2,6,0.0,0.0
+36,Varanasi,Harahua,2013-2014,UP7061,T06-NH 56 Sarai Kazi to Bhojubir Sindhora road via Virapatti,9.25,0,3,7,1,0,2,7,0.0,0.0
+37,Varanasi,Harahua,2016-2017,UP7063,ML10-Bhojubir Sindhora To Semari Narsingh Bhanpur,5.0,0,3,11,1,0,2,11,0.0,0.0
+41,Varanasi,Harahua,2021-2022,UP7091,MRL01-SH73 Gosain pur To ahirauli,5.0,0,3,4,1,0,2,4,0.0,0.0
+42,Varanasi,Kashividyapith,2007-2008,UP7037,Rohaniya  - Gangapur,5.675,0,3,2,0,0,3,2,0.0,0.0
+43,Varanasi,Kashividyapith,2007-2008,UP7041,Rohaniya- Pilkhini  - Korauta,5.3,1,1,0,3,0,2,1,0.0,0.0
+44,Varanasi,Kashividyapith,2007-2008,UP7041,Lahartara- Bhitari  - Lohta,4.25,0,3,1,1,0,2,1,0.0,0.0
+45,Varanasi,Kashividyapith,2007-2008,UP7041,SH-74 Km. 5  - Mudadev,5.0,0,3,1,0,0,3,1,0.0,0.0
+47,Varanasi,Kashividyapith,2007-2008,UP7042,Tikari road  - Bhagawatipur Saraidagi- Tarapur,2.1,0,3,1,1,0,2,1,0.0,0.0
+48,Varanasi,Kashividyapith,2007-2008,UP7042,Rohaniya - Mishirpur  - Mohansarai byepass,4.55,0,3,1,1,0,2,1,0.0,0.0
+49,Varanasi,Kashividyapith,2007-2008,UP7042,SH-74 Bachchaw Market  - Betwar Gangaghat,2.925,0,3,1,1,0,2,1,0.0,0.0
+50,Varanasi,Kashividyapith,2012-2013,UP7053,NH-2 Byepass Ramshipur - Navapura via Panditpur Mishirpur,3.0,0,3,4,0,0,3,4,0.0,0.0
+54,Varanasi,Kashividyapith,2018-2019,UP7077,6050-Panchkroshi Km-4 Via Kadipur To Nakai,4.6,0,3,5,1,0,2,5,0.0,0.0
+56,Varanasi,Pindra,2007-2008,UP7038,"Phoolpur  - Sindhora Km. 6,8-12",5.2,1,0,0,3,0,3,1,0.0,0.0
+59,Varanasi,Pindra,2012-2013,UP7050,SH-98 Mangari - Jhanjhaur,5.5,0,3,6,1,0,2,6,0.0,0.0
+60,Varanasi,Pindra,2012-2013,UP7050,Mangari - Pindra via Jagdishpur- Kaitholi,5.025,0,3,8,1,0,2,8,0.0,0.0
+62,Varanasi,Pindra,2012-2013,UP7052,Rameshwar - Badagaon Pancho pandawa-Rasulpur Tikari kala ,4.8,0,3,6,2,0,1,6,0.0,0.0
+65,Varanasi,Pindra,2020-2021,UP7078,MRL05-NH 56 Km 266 to Ahrak - Babatpur ,5.0,0,3,4,1,0,2,4,0.0,0.0
+67,Varanasi,Sewapuri,2007-2008,UP7040,SH-87- Badaura  - Kardhana Tikara Mirzamurad,5.5,0,3,1,1,0,2,1,0.0,0.0
+68,Varanasi,Sewapuri,2007-2008,UP7041,Panchkoshi- Rameshwar  - Jagapatti Paterwa,3.5,0,3,1,1,0,2,1,0.0,0.0
+71,Varanasi,Sewapuri,2012-2013,UP7049,Bhaupur- Kalikadham  - Tendui,2.95,0,3,3,0,0,3,3,0.0,0.0

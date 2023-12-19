@@ -18,6 +18,7 @@ import { Scrollbar } from 'src/components/scrollbar';
 import { items } from './config';
 import { SideNavItem } from './side-nav-item';
 import React, { useState, useEffect } from 'react';
+// import MyImage from './path/to/Group 9.svg';
 
 // function MyComponent() {
 //   // Function to refresh the page, placed inside your component
@@ -82,6 +83,10 @@ export const SideNav = (props) => {
             }}
           >
             {/* <Logo /> */}
+            <div>
+      {/* Directly using the SVG path in the img source attribute */}
+      <img src="Group9.png" alt="Description of image" />
+    </div>
           </Box>
           <Box
             sx={{

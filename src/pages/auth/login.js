@@ -158,8 +158,8 @@ const Page = () => {
                     value={formik.values.password}
                   />
                 </Stack>
-                <FormHelperText sx={{ mt: 1 }}>
-                  Optionally you can skip.
+                <FormHelperText sx={{ mt: 2 }}>
+                  I'm not a robot
                 </FormHelperText>
                 {formik.errors.submit && (
                   <Typography

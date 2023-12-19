@@ -25,6 +25,26 @@ import React, { useState, useEffect } from 'react';
     window.location.reload();
   };
 
+  function FileUploadButtons() {
+    // Function to handle file uploads
+    const handleFileUpload = async (file, category) => {
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('category', category);
+  
+      try {
+        const response = await axios.post('/upload', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data'
+          }
+        });
+        console.log('File uploaded successfully', response.data);
+      } catch (error) {
+        console.error('Error uploading file', error);
+      }
+    };
+  }
+
 
 export const SideNav = (props) => {
   const { open, onClose } = props;

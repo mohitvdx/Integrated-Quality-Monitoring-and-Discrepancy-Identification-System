@@ -185,7 +185,7 @@ const Page = () => {
                   sx={{ mt: 3 }}
                   onClick={handleSkip}
                 >
-                  Skip authentication
+                  Forgot Password
                 </Button>
                 <Alert
                   color="primary"

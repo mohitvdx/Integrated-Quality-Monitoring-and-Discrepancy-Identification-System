@@ -16,6 +16,7 @@ import {
 import { alpha } from '@mui/material/styles';
 import { usePopover } from 'src/hooks/use-popover';
 import { AccountPopover } from './account-popover';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 const SIDE_NAV_WIDTH = 280;
 const TOP_NAV_HEIGHT = 64;
@@ -78,10 +79,11 @@ export const TopNav = (props) => {
             direction="row"
             spacing={2}
           >
-            <Tooltip title="Contacts">
+            <Tooltip title="Help">
               <IconButton>
                 <SvgIcon fontSize="small">
-                  <UsersIcon />
+                  {/* <UsersIcon /> */}
+                  <HelpOutlineIcon />
                 </SvgIcon>
               </IconButton>
             </Tooltip>

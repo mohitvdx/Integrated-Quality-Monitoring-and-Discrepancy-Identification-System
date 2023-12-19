@@ -52,6 +52,38 @@ export const SideNav = (props) => {
   const { open, onClose } = props;
   const pathname = usePathname();
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
+  function saveFilesToDataForMLModel() {
+    // Get the uploaded files
+    const fileInputB = document.getElementById('data-source-b');
+    const fileInputC = document.getElementById('data-source-c');
+    const filesB = fileInputB.files;
+    const filesC = fileInputC.files;
+
+    // Create a FormData object to send the files to the server
+    const formData = new FormData();
+
+    // Append the files to the FormData object
+    for (let i = 0; i < filesB.length; i++) {
+      formData.append('filesB', filesB[i]);
+    }
+    for (let i = 0; i < filesC.length; i++) {
+      formData.append('filesC', filesC[i]);
+    }
+
+    // Send the FormData object to the server using fetch or XMLHttpRequest
+    fetch('/save-files', {
+      method: 'POST',
+      body: formData,
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Handle the response from the server
+        console.log(data);
+      })
+      .catch(error => {
+        // Handle any errors
+        console.error(error);
+      });}
 
   const content = (
     
@@ -311,8 +343,9 @@ export const SideNav = (props) => {
       
       {/* Refresh Button */}
       
+      
       <button
-  onClick={refreshPage}
+  
   style={{
   
     backgroundColor: '#6876af', // Green background to match your other buttons

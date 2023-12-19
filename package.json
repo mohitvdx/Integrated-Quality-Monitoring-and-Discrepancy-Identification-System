@@ -5,6 +5,7 @@
   "licence": "MIT",
   "homepage": "https://Ministry of Rural Development.io",
   "private": false,
+  "proxy": "http://localhost:3001",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -19,6 +20,7 @@
     "@emotion/server": "11.11.0",
     "@emotion/styled": "11.11.0",
     "@heroicons/react": "2.0.18",
+    "@mui/icons-material": "^5.15.1",
     "@mui/lab": "5.0.0-alpha.155",
     "@mui/material": "5.14.20",
     "@mui/system": "5.14.20",
@@ -45,7 +47,12 @@
     "@types/numeral": "2.0.5",
     "@types/react": "18.2.43",
     "@types/react-dom": "18.2.17",
+    "concurrently": "^8.2.2",
     "eslint": "8.55.0",
     "eslint-config-next": "14.0.4"
-  }
+  },
+  "description": "![license](https://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "next.config.js",
+  "keywords": [],
+  "license": "ISC"
 }

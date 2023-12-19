@@ -6,6 +6,7 @@ const now = new Date();
 
 const LookerStudioReport = () => {
   return (
+    <>
     <iframe
       src="https://lookerstudio.google.com/embed/reporting/0dcb9a07-35b3-4337-bfc8-b75e7ec9f3df/page/DBskD"
       frameBorder="0"
@@ -14,6 +15,45 @@ const LookerStudioReport = () => {
       style={{ border: 0 }}
       allowFullScreen
     ></iframe>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', margin: '20px 0' }}>
+    <div>
+      <h2>Generated Report</h2>
+      <div style={{ backgroundColor: 'white', padding: '10px', borderRadius: '5px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)' }}>
+        <p>Report-UttarPradesh.pdf</p>
+        <p>Generated on 19-12-2023</p>
+      </div>
+    </div>
+      {/* <a
+        href={fileUrl}
+        download
+        style={{
+          backgroundColor: '#4C51BF',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          padding: '10px 20px',
+          cursor: 'pointer',
+          textDecoration: 'none', // Remove underline from links
+          boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
+        }}
+      > */}
+    <button
+      style={{
+        backgroundColor: '#4C51BF',
+        color: 'white',
+        border: 'none',
+        borderRadius: '5px',
+        padding: '10px 20px',
+        cursor: 'pointer',
+        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
+      }}
+      onClick={() => { /* Logic to handle file download */ }}
+    >
+      Download
+    </button>
+  </div>
+</>
+
   );
 };
 
@@ -21,7 +61,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Overview | IQMDIS Kit
+        Overview | Ministry of Rural Development Kit
       </title>
     </Head>
     <Box

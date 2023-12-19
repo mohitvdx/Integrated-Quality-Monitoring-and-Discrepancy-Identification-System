@@ -81,7 +81,7 @@ export const SideNav = (props) => {
               width: 32
             }}
           >
-            <Logo />
+            {/* <Logo /> */}
           </Box>
           <Box
             sx={{
@@ -286,9 +286,34 @@ export const SideNav = (props) => {
 </Button>
 
       </div>
+
+      <div style={{ paddingTop: '13px' }}>
+  
       
       {/* Refresh Button */}
-      <button onClick={refreshPage}>Refresh</button>
+      
+      <button
+  onClick={refreshPage}
+  style={{
+  
+    backgroundColor: '#6876af', // Green background to match your other buttons
+    border: 'none',
+    color: 'white',
+    padding: '8px 16px', // Smaller padding for a smaller button
+    textAlign: 'center',
+    textDecoration: 'none',
+    display: 'inline-block',
+    fontSize: '14px', // Smaller font size for a smaller button
+    margin: '4px 2px',
+    cursor: 'pointer',
+    borderRadius: '20px', // More pronounced border-radius for rounded edges
+    boxShadow: '0 2px 2px 0 rgba(0,0,0,0.24), 0 0 2px 0 rgba(0,0,0,0.12)', // subtle shadow
+    transition: 'background-color 0.3s', // Smooth transition for hover effect
+  }}
+>
+Upload Files
+</button>
+      </div>
 
           <Button
             component="a"

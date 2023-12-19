@@ -5,6 +5,6 @@ export const useMockedUser = () => {
     id: '5e86809283e28b96d2d38537',
     avatar: '/assets/avatars/anonymous-user.png',
     name: 'Mohit Verma',
-    email: 'anika.visser@IQMDIS.io'
+    email: 'anika.visser@Ministry of Rural Development.io'
   };
 };

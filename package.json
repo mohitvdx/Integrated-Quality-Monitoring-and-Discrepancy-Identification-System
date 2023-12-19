@@ -1,9 +1,9 @@
 {
   "name": "material-kit-react",
   "version": "3.0.0",
-  "author": "IQMDIS",
+  "author": "Ministry of Rural Development",
   "licence": "MIT",
-  "homepage": "https://IQMDIS.io",
+  "homepage": "https://Ministry of Rural Development.io",
   "private": false,
   "scripts": {
     "dev": "next",

@@ -85,7 +85,7 @@ export const Layout = (props) => {
                 sx={{ color: '#15B79E' }}
                 target="_blank"
               >
-                IQMDIS Kit
+                Ministry of Rural Development Kit
               </Box>
             </Typography>
             <Typography

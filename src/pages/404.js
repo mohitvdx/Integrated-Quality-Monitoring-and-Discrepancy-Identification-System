@@ -7,7 +7,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        404 | IQMDIS Kit
+        404 | Ministry of Rural Development Kit
       </title>
     </Head>
     <Box

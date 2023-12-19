@@ -28,8 +28,8 @@ export const items = [
   //   )
   // },
   {
-    title: 'Results',
-    path: '/Results',
+    title: 'Reports',
+    path: '/Reports',
     icon: (
       <SvgIcon fontSize="small">
         <ShoppingBagIcon />
@@ -71,14 +71,15 @@ export const items = [
         <UserPlusIcon />
       </SvgIcon>
     )
-  },
-  {
-    title: 'Error',
-    path: '/404',
-    icon: (
-      <SvgIcon fontSize="small">
-        <XCircleIcon />
-      </SvgIcon>
-    )
   }
+  //,
+  // {
+  //   title: 'Error',
+  //   path: '/404',
+  //   icon: (
+  //     <SvgIcon fontSize="small">
+  //       <XCircleIcon />
+  //     </SvgIcon>
+  //   )
+  // }
 ];

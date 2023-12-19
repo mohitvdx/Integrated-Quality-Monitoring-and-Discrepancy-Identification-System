@@ -8,7 +8,7 @@ const Page = () => (
   <>
     <Head>
       <title>
-        Settings | IQMDIS Kit
+        Settings | Ministry of Rural Development Kit
       </title>
     </Head>
     <Box

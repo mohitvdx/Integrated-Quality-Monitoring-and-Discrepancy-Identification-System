@@ -27,7 +27,7 @@ const App = (props) => {
     <CacheProvider value={emotionCache}>
       <Head>
         <title>
-          IQMDIS Kit
+          Ministry of Rural Development Kit
         </title>
         <meta
           name="viewport"

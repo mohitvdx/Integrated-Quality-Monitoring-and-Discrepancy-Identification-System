@@ -71,7 +71,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Login | IQMDIS
+          Login | Ministry of Rural Development
         </title>
       </Head>
       <Box

@@ -26,26 +26,27 @@ import React, { useState, useEffect } from 'react';
     window.location.reload();
   };
 
-  function FileUploadButtons() {
-    // Function to handle file uploads
-    const handleFileUpload = async (file, category) => {
-      const formData = new FormData();
-      formData.append('file', file);
-      formData.append('category', category);
-  
-      try {
-        const response = await axios.post('/upload', formData, {
-          headers: {
-            'Content-Type': 'multipart/form-data'
-          }
-        });
-        console.log('File uploaded successfully', response.data);
-      } catch (error) {
-        console.error('Error uploading file', error);
-      }
-    };
-  }
+ // Function to handle file uploads
+const handleFileChange = async (e) => {
+  const file = e.target.files[0];
+  const formData = new FormData();
+  formData.append('file', file);
 
+  try {
+    const response = await fetch('/upload', { // Your server endpoint
+      method: 'POST',
+      body: formData,
+    });
+
+    if (response.ok) {
+      console.log('File uploaded successfully');
+    } else {
+      console.error('File upload failed');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+  }
+};
 
 export const SideNav = (props) => {
   const { open, onClose } = props;
@@ -85,7 +86,7 @@ export const SideNav = (props) => {
             {/* <Logo /> */}
             <div>
       {/* Directly using the SVG path in the img source attribute */}
-      <img src="Group9.png" alt="Description of image" />
+      {/* <img src="Group9.png" alt="Description of image" /> */}
     </div>
           </Box>
           <Box
@@ -196,23 +197,36 @@ export const SideNav = (props) => {
                  
       <div>
       <Button
-  component="a"
-  fullWidth
-  sx={{
-    mt: 2,
-    backgroundColor: '#6577B3', // Adjust the color to match your theme
-    color: 'white', // Adjust the text color to match your theme
-    textTransform: 'none', // Prevent uppercase transform
-    justifyContent: 'flex-start', // Align text to the left
-    '&:hover': {
-      backgroundColor: 'darkblue' // Darken the button on hover
-    }
-  }}
-  target="_blank"
-  variant="contained"
->
-  E-form Data
-  <input 
+      component="a"
+      fullWidth
+      sx={{
+        mt: 2,
+        backgroundColor: '#6577B3',
+        color: 'white',
+        textTransform: 'none',
+        justifyContent: 'flex-start',
+        '&:hover': {
+          backgroundColor: 'darkblue'
+        }
+      }}
+      target="_blank"
+      variant="contained"
+    >
+      E-form Data
+      {/* <input
+        type="file"
+        id="data-source-a"
+        accept=".csv"
+        onChange={handleFileChange}
+        style={{
+          opacity: 0,
+          position: 'absolute',
+          width: '100%',
+          height: '100%'
+        }}
+        webkitdirectory=""
+      /> */}
+      <input 
     type="file" 
     id="data-source-c" 
     accept=".csv" 
@@ -224,7 +238,7 @@ export const SideNav = (props) => {
       height: '100%' // Expand to cover the button
     }} 
   />
-</Button>
+    </Button>
 
 
           <Button
@@ -246,7 +260,7 @@ export const SideNav = (props) => {
   National QM Data 
   <input 
     type="file" 
-    id="data-source-c" 
+    id="data-source-b" 
     accept=".csv" 
     onChange={(e) => handleFileChange(e, 'sourceC')} 
     style={{ 

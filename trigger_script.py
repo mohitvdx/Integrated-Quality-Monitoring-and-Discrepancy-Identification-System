@@ -32,7 +32,7 @@ def run_notebook(notebook_path):
 
 if __name__ == "__main__":
     path_to_watch = r"/Users/mohitverma/Desktop/projects/SIH23/DataForMLmodel"  # Use a raw string for the file path
-    notebook_to_run = 'MLmodel/Data Cleaning OMMAS-4.ipynb'  # Replace with your notebook path
+    notebook_to_run = 'Data Cleaning OMMAS-4 3.ipynb'  # Replace with your notebook path
 
     event_handler = NewFileHandler(notebook_to_run)
     observer = Observer()

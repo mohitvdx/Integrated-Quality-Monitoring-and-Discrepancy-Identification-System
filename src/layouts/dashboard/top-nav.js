@@ -66,13 +66,14 @@ export const TopNav = (props) => {
                 </SvgIcon>
               </IconButton>
             )}
-            <Tooltip title="Search">
+            <Tooltip title="">
               <IconButton>
-                <SvgIcon fontSize="small">
+                {/* <SvgIcon fontSize="small">
                   <MagnifyingGlassIcon />
-                </SvgIcon>
+                </SvgIcon> */}
               </IconButton>
-            </Tooltip>
+              <p style={{ fontWeight: 'bold', fontSize: 'larger' }}>IQMDIS Dashboard</p>
+           </Tooltip>
           </Stack>
           <Stack
             alignItems="center"

@@ -1,190 +1,21 @@
-DISCREPANCY 0 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Andimadam 
+Discrepancy: Maintenance of Road
+Corrective Measure: Rain Cuts: Restore using proper backfilling and compaction. Use geotextiles if necessary for stabilization. Vegetation: Regularly trim branches, shrubs, and grass. Ensure clear visibility for road users and prevent obstruction of traffic signs.
 
- SANCTION YEAR: 2015-2016 
- PACKAGE NUMBER: TN3090 
- ROAD NAME : L060-Silambur to Thirukonam road (VR2180) 
- ROAD LENGTH: 5.4 
+Discrepancy: Making up of Earthen Shoulders
+Corrective Measure: Ensure proper grading and compaction to match the road level. Regular maintenance is needed to prevent erosion.
 
- NQM Inspection count: 1 
- NQM Grading: Unsatisfactory 
- NQM Name: Dange Pradeep Bhaskar rao 
- NQM Inspection date: 24-09-2016 
- Status: In Progress 
- Start Chainage: 1 
- End Chainage: 4.0 
+Discrepancy: Condition of Pavement
+Corrective Measure: Potholes: Fill with appropriate materials (asphalt or concrete) followed by compaction. Patch Repairs: Use a cut-and-patch method for larger areas, ensuring the patch is well integrated with the existing pavement.
 
- SQM Inspection count: 11 
- SQM Grading: satisfactory 
- SQM Name: Durairaj Kumaraswamy 
- SQM Inspection date: 23-02-2016 
- Status: In Progress 
- Start Chainage: 0 
- End Chainage: 5.4 
+Discrepancy: Road Furniture and Markings
+Corrective Measure: Regularly repaint road markings. Maintain visibility and positioning of road furniture.
 
-Discrepancy item(s):       Geometrics   Base Course-Water Bound Macadam   Cross Drainage Works              
-DISCREPANCY 1 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Ariyalur 
+Discrepancy: Geometrics
+Corrective Measure: Regularly assess and maintain road alignment, curvature, and gradients to meet design standards.
 
- SANCTION YEAR: 2016-2017 
- PACKAGE NUMBER: TN1165 
- ROAD NAME : poyyathanallur - illupaiyur 
- ROAD LENGTH: 5.52 
+Discrepancy: Base Course - Water Bound Macadam (WBM)
+Corrective Measure: Regularly inspect for surface evenness, and presence of potholes or ruts. For repairs, remove the loose material, re-grade and re-compact the area.
 
- NQM Inspection count: 2 
- NQM Grading: Unsatisfactory 
- NQM Name: Sharma Deputy Lal 
- NQM Inspection date: 26-08-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 5.5 
+Discrepancy: Cross drainage works
+Corrective Measure: Regular cleaning to prevent blockages. Structural inspection and repair of any damages to maintain functionality. In case of significant damage, reconstruct the affected area with fresh WBM layers, ensuring proper gradation of aggregates and adequate binding with stone dust or fine aggregates. Ensure proper water drainage to avoid water logging which can weaken the WBM structure. ... (more discrepancies and corrective measures)
 
- SQM Inspection count: 7 
- SQM Grading: satisfactory 
- SQM Name: C Duraisamy 
- SQM Inspection date: 17-02-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 5.5 
-
-Discrepancy item(s):                   Maintenance   Shoulders     
-DISCREPANCY 2 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Ariyalur 
-
- SANCTION YEAR: 2015-2016 
- PACKAGE NUMBER: TN3082 
- ROAD NAME : L073-AS road to Ameenabath road (VR2041) 
- ROAD LENGTH: 1.325 
-
- NQM Inspection count: 1 
- NQM Grading: Unsatisfactory 
- NQM Name: Dange Pradeep Bhaskar rao 
- NQM Inspection date: 23-09-2016 
- Status: In Progress 
- Start Chainage: 0 
- End Chainage: 1.325 
-
- SQM Inspection count: 2 
- SQM Grading: satisfactory 
- SQM Name: Y CHRISTDHAS 
- SQM Inspection date: 24-08-2016 
- Status: In Progress 
- Start Chainage: 0 
- End Chainage: 1.325 
-
-Discrepancy item(s):          Base Course-Water Bound Macadam   Cross Drainage Works              
-DISCREPANCY 3 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Ariyalur 
-
- SANCTION YEAR: 2015-2016 
- PACKAGE NUMBER: TN3083 
- ROAD NAME : L063-AA road to Kayarlabad road (VR2066) 
- ROAD LENGTH: 1.25 
-
- NQM Inspection count: 1 
- NQM Grading: Unsatisfactory 
- NQM Name: Suresh Chandra Sharma 
- NQM Inspection date: 14-12-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.25 
-
- SQM Inspection count: 6 
- SQM Grading: satisfactory 
- SQM Name: Thiruppathy Chithan 
- SQM Inspection date: 29-08-2017 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.25 
-
-Discrepancy item(s):       Geometrics   Base Course-Water Bound Macadam      Road Furnitures And Markings   Maintenance   Shoulders   pavement  
-DISCREPANCY 4 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Ariyalur 
-
- SANCTION YEAR: 2014-2015 
- PACKAGE NUMBER: TN3086 
- ROAD NAME : L047-Karuppur Poiyyur - Oriyur - Nanangur road to Puthur road (VR2067) 
- ROAD LENGTH: 1.125 
-
- NQM Inspection count: 1 
- NQM Grading: Unsatisfactory 
- NQM Name: Suresh Chandra Sharma 
- NQM Inspection date: 14-12-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.125 
-
- SQM Inspection count: 5 
- SQM Grading: satisfactory 
- SQM Name: Muthuvalliappan M 
- SQM Inspection date: 22-02-2017 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.125 
-
-Discrepancy item(s):       Geometrics   Base Course-Water Bound Macadam      Road Furnitures And Markings   Maintenance   Shoulders   pavement  
-DISCREPANCY 5 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Jayamkondam 
-
- SANCTION YEAR: 2016-2017 
- PACKAGE NUMBER: TN1166 
- ROAD NAME : Meensurity - Kuttakkarai 
- ROAD LENGTH: 1.0 
-
- NQM Inspection count: 2 
- NQM Grading: Unsatisfactory 
- NQM Name: Sharma Deputy Lal 
- NQM Inspection date: 26-04-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.0 
-
- SQM Inspection count: 7 
- SQM Grading: satisfactory 
- SQM Name: Thangaraj D 
- SQM Inspection date: 25-11-2017 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 1.0 
-
-Discrepancy item(s):                      Shoulders     
-DISCREPANCY 6 :
- STATE: Tamil Nadu 
- DISTRICT: Ariyalur 
- BLOCK: Jayamkondam 
-
- SANCTION YEAR: 2014-2015 
- PACKAGE NUMBER: TN30105 
- ROAD NAME : 	
-MRL12-Meikavalputhur-Veeracholapuram (via) Mendevanallur road 
- ROAD LENGTH: 3.0 
-
- NQM Inspection count: 1 
- NQM Grading: Satisfactory 
- NQM Name: Prakash Anugrah 
- NQM Inspection date: 16-09-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 3.0 
-
- SQM Inspection count: 4 
- SQM Grading: Unsatisfactory 
- SQM Name: Muthuvalliappan M 
- SQM Inspection date: 11-08-2018 
- Status: Maintenance 
- Start Chainage: 0 
- End Chainage: 3.0 
-
-Discrepancy item(s):          Base Course-Water Bound Macadam                 

@@ -18,14 +18,16 @@ def upload_to_google_sheets(csv_file, sheet_name):
     except gspread.SpreadsheetNotFound:
         sheet = client.create(sheet_name).sheet1
 
+    # Clear existing data in the sheet
+    sheet.clear()
+
     # Read CSV file
     with open(csv_file, 'r') as file_obj:
         reader = csv.reader(file_obj)
         data = list(reader)
 
-    # Clear existing data in the sheet and update with new data
-    sheet.clear()
-    sheet.update(range_name='A1', values=data)
+    # Update sheet with new data
+    sheet.update('A1', data)
 
     # New code to read back the values and verify
     updated_data = sheet.get_all_values()
@@ -35,4 +37,4 @@ def upload_to_google_sheets(csv_file, sheet_name):
         print("Update failed")
 
 # Example usage
-upload_to_google_sheets('Data for Power BI updated.csv', 'lookerstudio')
+upload_to_google_sheets(r'/Users/mohitverma/Desktop/projects/SIH23/PowerBI/Data for Power BI updated.csv', '')

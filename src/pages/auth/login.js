@@ -20,6 +20,9 @@ import { useAuth } from 'src/hooks/use-auth';
 import { Layout as AuthLayout } from 'src/layouts/auth/layout';
 
 const Page = () => {
+  const Image = ({ src, alt, style }) => {
+    return <img src={src} alt={alt} style={style} />;
+  };
   const router = useRouter();
   const auth = useAuth();
   const [method, setMethod] = useState('email');
@@ -125,7 +128,7 @@ const Page = () => {
                 value="email"
               />
               <Tab
-                label="Phone Number"
+                label="Forgot Password"
                 value="phoneNumber"
               />
             </Tabs>
@@ -159,7 +162,7 @@ const Page = () => {
                   />
                 </Stack>
                 <FormHelperText sx={{ mt: 2 }}>
-                  I'm not a robot
+                  {/* I'm not a robot */}
                 </FormHelperText>
                 {formik.errors.submit && (
                   <Typography
@@ -179,15 +182,15 @@ const Page = () => {
                 >
                   Continue
                 </Button>
-                <Button
+                {/* <Button
                   fullWidth
                   size="large"
                   sx={{ mt: 3 }}
                   onClick={handleSkip}
                 >
                   Forgot Password
-                </Button>
-                <Alert
+                </Button> */}
+                {/* <Alert
                   color="primary"
                   severity="info"
                   sx={{ mt: 3 }}
@@ -195,20 +198,17 @@ const Page = () => {
                   <div>
                     You can use <b>mohitverma@gmail.com</b> and password <b>Password123!</b>
                   </div>
-                </Alert>
+                </Alert> */}
               </form>
             )}
             {method === 'phoneNumber' && (
               <div>
-                <Typography
-                  sx={{ mb: 1 }}
-                  variant="h6"
-                >
-                  Not available in the demo
-                </Typography>
-                <Typography color="text.secondary">
-                  To prevent unnecessary costs we disabled this feature in the demo.
-                </Typography>
+                {/* import the OTP image here */}
+                <img
+        // src="src/pages/auth/OTP.png"
+        alt="Due to the costs in sending OTPs, we are not able to provide this service at the moment. Please use the email option to login."
+        style={{ width: '300px', height: '200px' }}
+      />
               </div>
             )}
           </div>

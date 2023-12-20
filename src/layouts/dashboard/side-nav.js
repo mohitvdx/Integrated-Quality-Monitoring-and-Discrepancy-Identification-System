@@ -152,7 +152,7 @@ export const SideNav = (props) => {
               fontSize="small"
               sx={{ color: 'neutral.500' }}
             >
-              <ChevronUpDownIcon />
+              {/* <ChevronUpDownIcon /> */}
             </SvgIcon>
           </Box>
         </Box>

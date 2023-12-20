@@ -4,6 +4,7 @@ import { Layout as DashboardLayout } from 'src/layouts/dashboard/layout';
 
 const now = new Date();
 
+
 const LookerStudioReport = () => {
   return (
     <>
@@ -47,13 +48,36 @@ const LookerStudioReport = () => {
         cursor: 'pointer',
         boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
       }}
-      onClick={() => { /* Logic to handle file download */ }}
+      onClick={() => {
+        fetch('../../DetailedReports/Report.pdf') // Assuming this is the correct relative path from your server
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.blob();
+          })
+          .then(blob => {
+            // Process the blob here, such as displaying or downloading the PDF
+          })
+          .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+          });
+      }}
     >
       Download
     </button>
   </div>
 </>
 
+  );
+};
+
+const MyComponent = () => {
+  const openPdfInNewTab = () => {
+    window.open('../../DetailedReports/Report.pdf', '_blank');
+  };
+  return (
+    <button onClick={openPdfInNewTab}>Open PDF in new tab</button>
   );
 };
 
@@ -83,7 +107,9 @@ const Page = () => (
             <LookerStudioReport />
           </Grid>
         </Grid>
+        
       </Container>
+
     </Box>
   </>
 );

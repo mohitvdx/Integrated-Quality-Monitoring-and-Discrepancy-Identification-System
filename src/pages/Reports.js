@@ -70,7 +70,7 @@ const Results = [
     title: 'Report-TamilNadu.pdf',
     createdAt: '19-12-2023',
     createdBy: 'Anuj Sharma',
-    downloadUrl: '/path/to/report-bihar.pdf' // This should be the actual URL where the PDF is hosted
+    downloadUrl: '/path/to/report-tamilnadu.pdf' // This should be the actual URL where the PDF is hosted
   },{
     id: 'report-2',
     title: 'Report-Bihar.pdf',

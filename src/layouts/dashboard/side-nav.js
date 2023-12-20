@@ -29,24 +29,26 @@ import React, { useState, useEffect } from 'react';
  // Function to handle file uploads
 const handleFileChange = async (e) => {
   const file = e.target.files[0];
-  const formData = new FormData();
-  formData.append('file', file);
+//   const formData = new FormData();
+//   formData.append('file', file);
 
-  try {
-    const response = await fetch('/upload', { // Your server endpoint
-      method: 'POST',
-      body: formData,
-    });
+//   try {
+//     const response = await fetch('/upload', { // Your server endpoint
+//       method: 'POST',
+//       body: formData,
+//     });
 
-    if (response.ok) {
-      console.log('File uploaded successfully');
-    } else {
-      console.error('File upload failed');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-  }
-};
+//     if (response.ok) {
+//       console.log('File uploaded successfully');
+//     } else {
+//       console.error('File upload failed');
+//     }
+//   } catch (error) {
+//     console.error('Error:', error);
+//   }
+// };
+
+}
 
 export const SideNav = (props) => {
   const { open, onClose } = props;

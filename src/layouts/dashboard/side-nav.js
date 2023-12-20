@@ -117,7 +117,7 @@ export const SideNav = (props) => {
               width: 32
             }}
           >
-            {/* <Logo /> */}
+            <Logo />
             
             <div>
       {/* Directly using the SVG path in the img source attribute */}

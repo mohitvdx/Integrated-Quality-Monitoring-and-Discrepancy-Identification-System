@@ -3,7 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/settings": "pages/settings.js",
+  "/account": "pages/account.js",
   "/404": "pages/404.js",
-  "/Reports": "pages/Reports.js",
-  "/account": "pages/account.js"
+  "/Reports": "pages/Reports.js"
 }

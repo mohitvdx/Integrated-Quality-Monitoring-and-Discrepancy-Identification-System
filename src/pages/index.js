@@ -7,19 +7,23 @@ const now = new Date();
 const DownloadButton = () => {
     return (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', margin: '20px 0' }}>
-            <div>
-                <h2>Generated Report</h2>
-                <div style={{ backgroundColor: 'white', padding: '10px', borderRadius: '5px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)' }}>
-                    <p>Report-UttarPradesh.pdf</p>
-                    <p>Generated on 19-12-2023</p>
-                </div>
-            </div>
-            <a href="/Report-UttarPradesh.pdf" download style={{ textDecoration: 'none' }}>
-                <button style={{ padding: '10px 20px', borderRadius: '5px', backgroundColor: '#007bff', color: 'white', border: 'none', cursor: 'pointer' }}>
-                    Download PDF
-                </button>
-            </a>
+            <Button
+            component="a"
+            endIcon={(
+              <SvgIcon fontSize="small">
+                <ArrowTopRightOnSquareIcon />
+              </SvgIcon>
+            )}
+            fullWidth
+            href="https://pmgsy.nic.in/quality-monitoring"
+            sx={{ mt: 2 }}
+            target="_blank"
+            variant="contained"
+          >
+            OMMAS
+          </Button>
         </div>
+
     );
 };
 

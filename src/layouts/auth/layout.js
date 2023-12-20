@@ -49,7 +49,7 @@ export const Layout = (props) => {
                 width: 32
               }}
             >
-              {/* <Logo /> */}
+                         
             </Box>
           </Box>
           {children}

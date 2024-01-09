@@ -4,6 +4,8 @@ import { styled } from '@mui/material/styles';
 import { withAuthGuard } from 'src/hocs/with-auth-guard';
 import { SideNav } from './side-nav';
 import { TopNav } from './top-nav';
+import { ThemeProvider } from 'src/components/themeProvider';
+import { ModeToggle } from './top-nav';
 
 const SIDE_NAV_WIDTH = 280;
 
@@ -47,16 +49,26 @@ export const Layout = withAuthGuard((props) => {
 
   return (
     <>
-      <TopNav onNavOpen={() => setOpenNav(true)} />
+    <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+
+      <TopNav onNavOpen={() => setOpenNav(true)}><ModeToggle/></TopNav>
       <SideNav
         onClose={() => setOpenNav(false)}
         open={openNav}
       />
       <LayoutRoot>
         <LayoutContainer>
-          {children}
+        
+            {children}
+          
         </LayoutContainer>
       </LayoutRoot>
+      </ThemeProvider>
     </>
   );
 });
